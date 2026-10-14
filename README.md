@@ -1,39 +1,35 @@
 # Portfolio
 
-Public case studies, runnable experiments, UI prototypes, demos, and code samples, organized so the explanation and the working output can be found together.
+제품·UX·디자인 프로젝트의 문제·주요 결정·결과를 정리한 대표 사례 모음입니다.
 
-## Browse the collection
+Selected product, UX, and design case studies documenting problems, decisions, and outcomes.
 
-| Content | Where to go |
-| --- | --- |
-| Runnable tools, prototypes, and examples | [Demos](demos/README.md) |
-| Problem, contribution, decisions, and results | [Case studies](case-studies/README.md) |
-| Email signature generator | [Implementation](demos/email-signature/index.html) |
+## Browse
+
+[Case studies](case-studies/README.md) explain the problem, my role and contribution, the key decisions, and the resulting outcomes. No case studies have been published yet.
 
 ```text
 .
 ├─ README.md
-├─ demos/
-│  ├─ README.md
-│  └─ email-signature/   # existing generator, imported with its Git history
-└─ case-studies/
-   └─ README.md
+├─ case-studies/
+│  └─ README.md
+└─ demos/
+   └─ README.md          # links to the public tools workspace
 ```
 
-Keep each new runnable output's source, assets, and instructions together under `demos/<name>/`. Link it to a case study when the problem and decisions need explanation.
+Choose cases that help explain my work and support their claims with evidence. Distinguish my contribution from team results and state limitations or unresolved outcomes accurately.
 
-## Publication rule
+## Tools and demos
 
-- Private work originates in the relevant private workspace.
-- Publish here only after removing private, company, client, credential, and internal-context information.
-- Treat this repository as a downstream public output, not the upstream private working copy.
-- Do not automatically sync changes from here back into a private workspace.
-- Ground case study claims in evidence and distinguish my contribution from team results.
+[Open-Workbench](https://github.com/Un-Ragazzo/Open-Workbench) holds lightweight public tools, experiments, prototypes, templates, and reusable resources. Link a case study to its relevant tool or demo there instead of maintaining another editable copy here.
 
-## Source and hosting
+The [email signature generator](https://github.com/Un-Ragazzo/Open-Workbench/tree/main/email-signature) is maintained in Open-Workbench at its existing path. The earlier imported source remains in this repository's Git history; its duplicate working copy has been removed so there is one public source to maintain.
 
-This collection imports Open-workbench's public Git history and preserves the email signature generator's contents under `demos/email-signature/`. [Open-workbench](https://github.com/Un-Ragazzo/Open-workbench) keeps its existing `email-signature/` copy and repository name for compatibility with the established GitHub Pages URL.
+## Publication
 
-New public source work belongs here. Deliberately update the compatibility copy in Open-workbench when publishing a generator update to that existing URL. Hosting a new output is a separate step from adding its source here.
+- Private work originates in its private workspace. Publish only material that can be shared after removing private, company, client, credential, and internal-context information.
+- Keep public narratives and evidence links here; keep runnable tool sources in Open-Workbench.
+- Do not automatically sync public changes back into private workspaces.
+- Source publication does not establish a live website. GitHub Pages is not enabled on this repository.
 
-The target repository was the empty `Case-studies` repository. **Portfolio** is its intended name; GitHub links use `Case-studies` until the rename is completed. This source consolidation does not enable GitHub Pages or establish a new live URL for this repository.
+The repository is now `Un-Ragazzo/Portfolio`, formerly `Case-studies`. Existing Git history is preserved.
