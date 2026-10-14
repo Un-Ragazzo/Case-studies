@@ -1,8 +1,8 @@
 # Case studies
 
-Public accounts of a problem, my contribution, the decisions made, and the resulting outcome. Link each case to its demo or other public evidence when available.
+Selected product, UX, and design case studies explaining a problem, my contribution, the decisions made, and the resulting outcome. Link each case to its demo or other public evidence when available. Runnable tools and demos belong in [Open-Workbench](https://github.com/Un-Ragazzo/Open-Workbench).
 
-No cases have been published here yet. The original `Case-studies` repository was empty, so there is no existing narrative content to import.
+No cases have been published here yet. The former `Case-studies` repository was renamed to `Portfolio`; there is no existing narrative content to import.
 
 ## Adding a case
 

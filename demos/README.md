@@ -1,19 +1,9 @@
-# Demos
+# Tools and demos
 
-Runnable public tools, UI prototypes, experiments, and code samples.
+Runnable public tools, experiments, prototypes, templates, and reusable resources are maintained in [Open-Workbench](https://github.com/Un-Ragazzo/Open-Workbench).
 
-## Available demo
+The [email signature generator](https://github.com/Un-Ragazzo/Open-Workbench/tree/main/email-signature) is maintained there at `email-signature/`. Its earlier imported copy is preserved in this repository's Git history.
 
-| Demo | Files | Description |
-| --- | --- | --- |
-| Email signature generator | [Implementation](email-signature/index.html) | Standalone browser tool for preparing and copying an email signature |
-
-The generator was imported from Open-workbench without changing its HTML. [Open-workbench's existing copy](https://github.com/Un-Ragazzo/Open-workbench/tree/main/email-signature) remains at its old path for compatibility with the established GitHub Pages address. Deliberately update that copy when publishing a generator update to the existing URL.
-
-## Adding a demo
-
-Use `demos/<name>/` and keep the source, assets, and instructions needed to run it together. Describe what the demo demonstrates, how to run it, and any practical limitations. Link to a related [case study](../case-studies/README.md) when the problem and decisions need explanation.
-
-Publish only reviewed public material. Use sample data, and exclude company or client information, credentials, and private context. The private workspace remains the upstream working copy.
+Link a Portfolio case study to the relevant tool or demo. Keep the source, assets, and setup instructions with that tool in Open-Workbench rather than maintaining two editable copies.
 
 [Back to Portfolio](../README.md)
